@@ -41,8 +41,11 @@ ds_course/
 .streamlit/secrets.toml
 
 # VS Code
-.vscode/
-*.code-workspace
+# We allow syncing workspace settings and the workspace file itself
+!.vscode/settings.json
+!.vscode/extensions.json
+!*.code-workspace
+.vscode/*
 
 # Jupyter Notebook
 .ipynb_checkpoints

@@ -17,4 +17,6 @@ dependencies:
   - ipykernel
   - tensorflow
   - pytorch
+  - ruff
+  - pydantic
   - pip
