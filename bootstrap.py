@@ -23,7 +23,7 @@ def main():
     print(f"[*] Python version: {sys.version.split()[0]}")
     
     # 2. Check Required Packages
-    required = ["sqlalchemy", "psycopg2"]
+    required = ["sqlalchemy", "psycopg2", "openpyxl"]
     missing = []
     
     for pkg in required:
@@ -40,6 +40,8 @@ def main():
             run_command("pip install psycopg2-binary")
         if "sqlalchemy" in missing:
             run_command("pip install sqlalchemy")
+        if "openpyxl" in missing:
+            run_command("pip install openpyxl")
             
     # 3. Check for PostgreSQL
     print("\n[*] Checking PostgreSQL Service...")

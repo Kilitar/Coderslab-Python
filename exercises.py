@@ -390,3 +390,36 @@ for i in range(1, 101):
 # Task 28: PEP 8 
 # -----------------------------------------------------------------------------
 #  Prohnal jsem to pomocí Ruff a sjednotil dle PEP 8
+
+
+# -----------------------------------------------------------------------------
+# Task 29: Objects (Fuel Consumption)
+# -----------------------------------------------------------------------------
+fuel_consumption = {  # in liter/100km
+    "Citroen": {
+        "Berlingo": {
+            "petrol_engine": 8.25,
+            "diesel_engine": 5.75,
+        },
+        "C3": {
+            "petrol_engine": 7.0,
+            "diesel_engine": 5.0,
+        },
+    },
+}
+
+# Výpočet průměrů
+petrol_values: list[float] = [
+    fuel_consumption["Citroen"]["Berlingo"]["petrol_engine"],
+    fuel_consumption["Citroen"]["C3"]["petrol_engine"],
+]
+diesel_values: list[float] = [
+    fuel_consumption["Citroen"]["Berlingo"]["diesel_engine"],
+    fuel_consumption["Citroen"]["C3"]["diesel_engine"],
+]
+
+avg_petrol: float = sum(petrol_values) / len(petrol_values)
+avg_diesel: float = sum(diesel_values) / len(diesel_values)
+
+print(f"Average gasoline (petrol) consumption: {avg_petrol} l/100km")
+print(f"Average diesel consumption: {avg_diesel} l/100km")
