@@ -1,0 +1,90 @@
+# =============================================================================
+# Coderslab Python/SQL Prework - Assignments
+# Student: Vit
+# =============================================================================
+
+/** SELECT queries **/
+
+-- A query finding all students
+SELECT * FROM students;
+
+-- A query finding all teachers
+SELECT * FROM teachers;
+
+-- A query finding only first names of students
+SELECT name FROM students;
+
+-- A query finding only surnames and emails of students
+SELECT surname, email FROM students;
+
+
+/** WHERE clause **/
+
+-- Finding all students whose names start with the letter A
+SELECT * FROM students WHERE name LIKE 'A%';
+
+-- Finding teachers with a salary above PLN 1900
+SELECT * FROM teachers WHERE pay > 1900;
+
+-- Finding marks above 4
+SELECT * FROM marks WHERE mark > 4;
+
+-- Finding the teacher whose name is Bryan Cubes (teacher_id: 3)
+SELECT teacher_id FROM teachers WHERE name = 'Bryan Cubes';
+
+-- Finding marks given by Bryan (using teacher_id 3)
+SELECT * FROM marks WHERE teacher_id = 3;
+
+
+/** AND and OR clauses **/
+
+-- A query finding the data of a student whose name is Damian and surname is Forrester
+SELECT * FROM students WHERE name = 'Damian' AND surname = 'Forrester';
+
+-- A query finding Damian Forrester's marks higher than 3 (student_id: 3)
+SELECT * FROM marks WHERE student_id = 3 AND mark > 3;
+
+-- All students with names starting from D or B
+SELECT * FROM students WHERE name LIKE 'D%' OR name LIKE 'B%';
+
+
+/** ORDER BY clause **/
+
+-- A query finding marks given by Clara Oakley, ordered from high to low (teacher_id: 4)
+SELECT * FROM marks WHERE teacher_id = 4 ORDER BY mark DESC;
+
+-- A query finding all students ordered alphabetically by surname
+SELECT * FROM students ORDER BY surname ASC;
+
+-- A query finding all marks of the student whose email is bertram.adams@yahoo.com from high to low (student_id: 1)
+SELECT * FROM marks WHERE student_id = 1 ORDER BY mark DESC;
+
+
+/** Adding new teacher **/
+
+-- 1. Try to add a new teacher with teacher_id = 2
+-- This will FAIL because teacher_id 2 already exists (Lilly Flores)
+INSERT INTO teachers (teacher_id, name, pay) VALUES (2, 'John Koval', 1300);
+
+-- 2. Add the teacher without specifying the primary key (teacher_id)
+INSERT INTO teachers (name, pay) VALUES ('John Koval', 1300);
+
+-- 3. Load all teachers to see the assigned ID
+SELECT * FROM teachers;
+
+-- 4. Add a new teacher with a manually specified non-existing ID
+INSERT INTO teachers (teacher_id, name, pay) VALUES (6, 'Jane Smith', 2500);
+
+
+/** Adding new class and students **/
+
+-- 1. Add a new class and assign it the newly-added teacher (assuming id 6)
+INSERT INTO classes (name, main_teacher_id) VALUES ('IX C', 6);
+
+-- 2. Add 5 new students to the new class (assuming class_id 6) in a single query
+INSERT INTO students (name, surname, email, class_id) VALUES 
+('Vlastimil', 'Novak', 'vlasta@example.com', 6),
+('Bozena', 'Nycova', 'bozka@example.com', 6),
+('Cenek', 'Dvorak', 'cenek@example.com', 6),
+('Dana', 'Kratka', 'dana@example.com', 6),
+('Emil', 'Zatopek', 'emil@example.com', 6);

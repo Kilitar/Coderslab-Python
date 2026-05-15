@@ -27,3 +27,9 @@ Cílem je vytvořit nástroj/prostředí ("upgrade toolsetu"), který efektivně
 2. Nainstalovat závislosti (vygenerujeme si `environment.yml` nebo `requirements.txt`).
 3. Vytvořit testovací připojení na lokální PostgreSQL.
 4. Napsat a spustit první "Hello World" dashboard ve Streamlitu.
+
+## 🔄 Synchronizace HW (Migration Strategy)
+Pro snadný přenos mezi stanicí a notebookem:
+- **Git:** Všechny konfigurační soubory (`.gitignore`, `environment.yml`, `bootstrap.py`) jsou v repozitáři.
+- **Task Tracking:** Sledovat soubor `MIGRATION_TASKS.md` pro zjištění aktuálního stavu na daném stroji.
+- **One-Command Setup:** Na novém stroji stačí spustit `python bootstrap.py` pro automatickou instalaci driverů a kontrolu služeb.
