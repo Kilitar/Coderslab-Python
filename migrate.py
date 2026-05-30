@@ -11,7 +11,7 @@ def run_sql_file(cursor, file_path):
 def migrate():
     db_name = "coderslab"
     user = "postgres"
-    password = "TVOJE_HESLO"  # Uživatel bude muset upravit nebo použijeme .env
+    password = "xxxeen"  # Uživatel bude muset upravit nebo použijeme .env
     host = "localhost"
     
     # 1. Připojení k defaultní databázi pro vytvoření nové DB

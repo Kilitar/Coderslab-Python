@@ -8,7 +8,7 @@ Tento soubor slouží k synchronizaci stavu prostředí mezi pracovní stanicí 
 - [x] SQLAlchemy 2.0 nainstalováno
 - [x] Psycopg2-binary (driver) - **INSTALOVÁNO**
 - [x] Openpyxl - **INSTALOVÁNO**
-- [ ] Konfigurace `.env` pro DB spojení
+- [x] Konfigurace `.env` pro DB spojení
 
 ## 🛠️ Postup pro "Dvojče" na novém HW
 Při prvním spuštění na novém stroji (notebooku) proveď:
