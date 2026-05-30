@@ -1,6 +1,10 @@
 import psycopg2
 from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
+from dotenv import load_dotenv
 import os
+
+# Načtení proměnných z .env souboru
+load_dotenv()
 
 def run_sql_file(cursor, file_path):
     print(f"[*] Spouštím SQL soubor: {file_path}")
@@ -9,10 +13,10 @@ def run_sql_file(cursor, file_path):
         cursor.execute(sql)
 
 def migrate():
-    db_name = "coderslab"
-    user = "postgres"
-    password = "xxxeen"  # Uživatel bude muset upravit nebo použijeme .env
-    host = "localhost"
+    db_name = os.getenv("DB_NAME", "coderslab")
+    user = os.getenv("DB_USER", "postgres")
+    password = os.getenv("DB_PASSWORD")
+    host = os.getenv("DB_HOST", "localhost")
     
     # 1. Připojení k defaultní databázi pro vytvoření nové DB
     try:
