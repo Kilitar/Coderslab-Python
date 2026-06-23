@@ -1,0 +1,38 @@
+{
+  "users/me": [
+    "Z=t(60),Y=t(13),V=t(147);function W(){return function(e){return new Promise((function(n,t){Z.a.get(\"users/me\").then((function(t){var r;e((r=Object(Y.get)(t,\"data\"),{type:V.a.FETCH_USER,payload:r})),n(t)})).ca"
+  ],
+  "jwt": [
+    "thing went wrong\")})})]})},Mr=t(199),Ur=t.n(Mr),Hr=t(231),Fr=t(159);Ar.a.polyfill();var Dr=h.a.get(\"jwt\");if(Dr){var Gr=Ur()().unix(),Br=Object(Hr.a)(Dr);Gr>Object(Y.get)(Br,\"exp\")&&h.a.remove(\"jwt\")}Obj",
+    ".get(\"jwt\");if(Dr){var Gr=Ur()().unix(),Br=Object(Hr.a)(Dr);Gr>Object(Y.get)(Br,\"exp\")&&h.a.remove(\"jwt\")}Object(Fr.c)()&&Object(Fr.a)(Fr.g),o.a.render(Object(_e.jsxs)(s.a,{store:c.a,children:[Object(_e.",
+    ",t){\"use strict\";t.d(n,\"a\",(function(){return i}));var r=t(99),a=t.n(r),i=function(){var e=a.a.get(\"jwt\");return e||\"\"}},67:function(e,n,t){\"use strict\";t.d(n,\"f\",(function(){return a})),t.d(n,\"g\",(funct"
+  ],
+  "download": [
+    "=t(228),x=t.n(v),C=t(37);b.c.GlobalWorkerOptions.workerSrc=x.a;n.a=function(e){var n=e.material,t=e.downloadMaterial,i=e.base64,g=e.hasSearchParam,v=void 0!==g&&g,x=Object(u.a)().t,S=Object(C.g)(),w=Object(s.",
+    "ren:Object(j.jsxs)(h.i,{onClick:t,children:[!ne&&Object(j.jsx)(\"div\",{className:\"label\",children:x(\"Download\")}),Object(j.jsx)(l.a,{icon:c.l})]})})]}),!ne&&Object(j.jsxs)(h.l,{style:re,onClick:function(){te(!",
+    "]}),Object(j.jsxs)(h.i,{onClick:t,children:[!ne&&Object(j.jsx)(\"div\",{className:\"label\",children:x(\"Download\")}),Object(j.jsx)(l.a,{icon:c.l})]})]})})]})})})]})}},204:function(e,n,t){\"use strict\";t(1);var r,a",
+    "t(m.jsx)(h.a,{size:\"2x\",icon:t})}),i&&Object(m.jsx)(\"div\",{children:i})]})};n.a=function(e){var n=e.downloadMaterial,t=Object(s.a)().t;return Object(m.jsx)(d,{id:\"material-with-attachment\",children:Object(m.j",
+    "bject(m.jsx)(d,{id:\"material-with-attachment\",children:Object(m.jsx)(f,{icon:o.l,onClick:n,title:t(\"Download\")})})}},205:function(e,n,t){\"use strict\";var r,a=t(11),i=t(1),o=t(5),s=t(4).d.div(r||(r=Object(o.a)"
+  ],
+  "material": [
+    "}},116:function(e,n,t){\"use strict\";t(1);var r=t(16),a=t(45),i=t(53),o=t(0);n.a=function(e){var n=e.material,t=e.isLecturerMaterial,s=void 0!==t&&t,c=a.a.UI_COLORS.medium_gray;switch(n.status){case i.a.NOT_VI",
+    "\"use strict\";t(1);var r=t(16),a=t(45),i=t(53),o=t(0);n.a=function(e){var n=e.material,t=e.isLecturerMaterial,s=void 0!==t&&t,c=a.a.UI_COLORS.medium_gray;switch(n.status){case i.a.NOT_VISITED:c=a.a.UI_COLORS.m",
+    "ull,(function(n){var t;e((t=n,{type:a.a.FETCH_COURSE_PROGRESS,payload:t}))}))}}function l(e){var n=\"material/search?\".concat(e);return new Promise((function(e,t){o.a.get(n).then(e).catch(t)}))}function d(){re",
+    "ink:\"\"},courseId:\"\",access:{role:\"\",modules:[]},mentor:{name:\"\"},cs:{name:\"\"},description:\"\",currentMaterial:{id:\"\",name:\"\",chapterId:\"\"},product:{name:\"\",id:\"\"},icon:\"\",roles:[]},metadata:{}},J={data:{id:\"\",",
+    "\"\",html:\"\"},review:null,access:ae.a.ALL},metadata:{navigation:{contentLevel:\"\",nextChapterId:\"\",nextMaterialId:\"\",nextSlug:\"\",previousChapterId:\"\",previousMaterialId:\"\",previousSlug:\"\"}}},oe={data:{id:\"\",name"
+  ],
+  "course": [
+    "{return e.theme.UI_COLORS.main_gray}))},106:function(e,n,t){\"use strict\";var r;!function(e){e.FETCH_COURSES_LIST=\"FETCH_COURSES_LIST\",e.FETCH_DIRECT_ACCESS_LIST=\"FETCH_DIRECT_ACCESS_LIST\"}(r||(r={})),n.a=r}",
+    "OLORS.main_gray}))},106:function(e,n,t){\"use strict\";var r;!function(e){e.FETCH_COURSES_LIST=\"FETCH_COURSES_LIST\",e.FETCH_DIRECT_ACCESS_LIST=\"FETCH_DIRECT_ACCESS_LIST\"}(r||(r={})),n.a=r},110:function(e,n,t)",
+    "m;\\n  }\\n\\n  & > h2 {\\n    font-size: \",\";\\n    font-weight: 700;\\n    margin: 0;\\n  }\\n\\n  & > div.course-icon {\\n    display: none;\\n\\n    @media (\",\") {\\n      display: block;\\n\\n      & > img {\\n       ",
+    "turn l})),t.d(n,\"a\",(function(){return d}));var r=t(65),a=t(81),i=function(e){return{type:a.a.FETCH_COURSE_DETAILS,payload:e}},o=t(60);function s(e){return function(n){return Object(r.a)(n,\"course_instance\"",
+    "a.a.FETCH_COURSE_DETAILS,payload:e}},o=t(60);function s(e){return function(n){return Object(r.a)(n,\"course_instance\",e,(function(e){var t;n((t=e,{type:a.a.FETCH_COURSE_INSTANCE,payload:t}))}))}}function c(e"
+  ],
+  "attachment": [
+    ".a.PRESENTATION_REVEAL},u=function(e){return e===r.a.PRESENTATION_PDF},l=function(e){return e===r.a.ATTACHMENT}},103:function(e,n,t){\"use strict\";t.d(n,\"a\",(function(){return i}));var r,a=t(5),i=t(4).d.button(r",
+    ".83332V3.16666C15.6667 2.73929 15.345 2.38707 14.9306 2.33893L14.8334 2.33332Z\",fill:c})});case r.a.ATTACHMENT:return Object(o.jsxs)(\"svg\",{xmlns:\"http://www.w3.org/2000/svg\",width:\"14\",height:\"18\",viewBox:\"0 0",
+    "\"presentation_reveal\",e.ARTICLE=\"article\",e.SNIPPET=\"snippet\",e.QUIZ=\"quiz\",e.EXERCISE=\"exercise\",e.ATTACHMENT=\"attachment\"}(r||(r={})),n.a=r},160:function(e,n,t){\"use strict\";var r=t(91),a=t(73),i=function(){v",
+    "n_reveal\",e.ARTICLE=\"article\",e.SNIPPET=\"snippet\",e.QUIZ=\"quiz\",e.EXERCISE=\"exercise\",e.ATTACHMENT=\"attachment\"}(r||(r={})),n.a=r},160:function(e,n,t){\"use strict\";var r=t(91),a=t(73),i=function(){var e=argumen",
+    "_getPresentationFileName\",value:function(){return this._getNameWithUnderscores()+\".pdf\"}},{key:\"_getAttachmentFileName\",value:function(){var e=this._material.sourceName.split(\".\");if(e.length>2){var n=e.pop();r"
+  ]
+}

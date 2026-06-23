@@ -1,0 +1,1624 @@
+{
+  "data": {
+    "id": "6c33b5d0-46ae-4a01-8379-bc5dfed60cab",
+    "hasRepositories": false,
+    "product": {
+      "id": "DTL",
+      "name": "Data Analyst"
+    },
+    "modules": [
+      {
+        "id": "7fdd3585-6b4b-43c4-bc66-6124a418e939",
+        "number": 0,
+        "name": "Introduction to Data Analysis - Prework",
+        "description": "In this part of the course you'll get familiar with the course organization and the process of data analysis. We will discuss its stages in details; we're also going to install and correctly set up Microsoft Excel 365 and learn about its functionalities. At the end of the Prework you'll learn about the Kaggle platform and its public data sets, as well as its community of data analysts.",
+        "chapters": [
+          {
+            "id": "70240d28-0ed4-46b5-965b-e5d06c446fa6",
+            "number": 1,
+            "name": "Course preparation materials (independent study)",
+            "description": "This part is devoted to outlining the goals of the course, its organization and rules. You'll find out who is responsible for various aspects of the course and how to contact them in case of any doubts or issues.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "7fdd3585-6b4b-43c4-bc66-6124a418e939"
+              },
+              "chapterId": {
+                "id": "70240d28-0ed4-46b5-965b-e5d06c446fa6"
+              },
+              "presentations": 0,
+              "articles": 3,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 0,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "0-1"
+          },
+          {
+            "id": "8b8d4c12-0cec-4d1b-919d-3c76467ca896",
+            "number": 2,
+            "name": "Requirements and configuration of the working environment",
+            "description": "In this part you'll find out how to install Microsoft Excel 365 on your computer. We're going to explain why Excel is a good starting tool to work with data. To be sure that you'll have no problem starting your classes with the lecturer, you're going to check your knowledge and skills doing Excel exercises.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "7fdd3585-6b4b-43c4-bc66-6124a418e939"
+              },
+              "chapterId": {
+                "id": "8b8d4c12-0cec-4d1b-919d-3c76467ca896"
+              },
+              "presentations": 0,
+              "articles": 3,
+              "snippets": 0,
+              "quizzes": 1,
+              "exercises": 1,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "0-2"
+          },
+          {
+            "id": "42b0b2e2-71ce-495f-8953-6d740259d372",
+            "number": 3,
+            "name": "Introduction to Data Analysis",
+            "description": "Introduction to Data Analysis is where you'll find out what data analysis is and learn about the most popular methods of working with data. You're going to get familiar with the details of the Data Science process used in the other parts of the course to work with data.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "7fdd3585-6b4b-43c4-bc66-6124a418e939"
+              },
+              "chapterId": {
+                "id": "42b0b2e2-71ce-495f-8953-6d740259d372"
+              },
+              "presentations": 0,
+              "articles": 3,
+              "snippets": 0,
+              "quizzes": 1,
+              "exercises": 0,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "0-3"
+          },
+          {
+            "id": "b0c6433f-97b0-49d4-8a8e-2cb7cf0d6758",
+            "number": 4,
+            "name": "Case study - our first data analysis performed together",
+            "description": "Based on the already familiar Data Science process you're going to see first hand how its rules are applied in practice. Using examples you'll learn how to perform a real-world data analysis. You will consolidate each of the discussed stages of the Data Science process by solving tasks based on the analyzed problem. ",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "7fdd3585-6b4b-43c4-bc66-6124a418e939"
+              },
+              "chapterId": {
+                "id": "b0c6433f-97b0-49d4-8a8e-2cb7cf0d6758"
+              },
+              "presentations": 0,
+              "articles": 7,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 5,
+              "attachments": 1,
+              "lecturer": 0
+            },
+            "slug": "0-4"
+          },
+          {
+            "id": "96ab23f9-5e15-4a36-bf5c-e0af3f85deb9",
+            "number": 5,
+            "name": "Prework summary",
+            "description": "This part is all about the Kaggle platform; the place to be for data analysts and scientists from around the world. You're going to learn how Kaggle can assist you in developing your analytical skills after you finish the course. You'll also find the summary of the prework and an appendix useful when working in Excel.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "7fdd3585-6b4b-43c4-bc66-6124a418e939"
+              },
+              "chapterId": {
+                "id": "96ab23f9-5e15-4a36-bf5c-e0af3f85deb9"
+              },
+              "presentations": 0,
+              "articles": 2,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 0,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "0-5"
+          },
+          {
+            "id": "886dc700-4263-4380-9971-6eadd52e14a8",
+            "number": 6,
+            "name": "Downloadable materials for session 1",
+            "description": "This is where you'll find the materials required during the first classes with the lecturer. ",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "7fdd3585-6b4b-43c4-bc66-6124a418e939"
+              },
+              "chapterId": {
+                "id": "886dc700-4263-4380-9971-6eadd52e14a8"
+              },
+              "presentations": 0,
+              "articles": 0,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 0,
+              "attachments": 1,
+              "lecturer": 0
+            },
+            "slug": "0-6"
+          }
+        ],
+        "lastSeen": false,
+        "access": true,
+        "lecturers": [
+          {
+            "name": "Aneta",
+            "surname": "Popelová"
+          }
+        ],
+        "hasExam": false
+      },
+      {
+        "id": "bd9c4759-2c85-4b26-a5c1-16b51f5f409a",
+        "number": 1,
+        "name": "Introduction to Data Analysis - Classes with the lecturer",
+        "description": "This module is devoted to the Data Science process and aims to expand your practical knowledge of data analysis. During classes, based on the example of a popular streaming service, you'll find out how to perform the stages of the data analysis process that you learned about earlier: framing the problem, obtaining data, cleaning and processing data, as well as exploration and in-depth data analysis. You will learn the rules of communicating the results of analyzes effectively.",
+        "chapters": [
+          {
+            "id": "c6c2172b-982b-442b-ad94-e436cf52619c",
+            "number": 1,
+            "name": "Day 1. Data Science process steps 1-3: Framing the problem and obtaining, cleaning, and processing data",
+            "description": "In this part you're going to explore the details of the first three stages of the Data Science process. You will learn how to frame the problem and also what is important when you obtain the data needed for analysis. Eventually you're going to clean and process data: both steps crucial to ensuring the correct results of data analysis.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "bd9c4759-2c85-4b26-a5c1-16b51f5f409a"
+              },
+              "chapterId": {
+                "id": "c6c2172b-982b-442b-ad94-e436cf52619c"
+              },
+              "presentations": 7,
+              "articles": 0,
+              "snippets": 0,
+              "quizzes": 1,
+              "exercises": 7,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "1-1"
+          },
+          {
+            "id": "c0445fff-ff15-47b4-865d-51ef16dd3a47",
+            "number": 2,
+            "name": "Day 2. Statistics in data analysis - Data Science process - steps 4-5 Exploration and in-depth data analysis",
+            "description": "You'll start the second day of the course from learning statistics. It will be useful in discussing the next two steps of the Data Science process: exploration and in-depth data analysis. You will learn how the statistical methods and other Excel functionalities are going to help you solve statistical problems.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "bd9c4759-2c85-4b26-a5c1-16b51f5f409a"
+              },
+              "chapterId": {
+                "id": "c0445fff-ff15-47b4-865d-51ef16dd3a47"
+              },
+              "presentations": 8,
+              "articles": 0,
+              "snippets": 0,
+              "quizzes": 3,
+              "exercises": 10,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "1-2"
+          },
+          {
+            "id": "c41a51d2-858c-4247-a85e-1616af5fd2c8",
+            "number": 3,
+            "name": "Homework - Data Science process steps 1-5",
+            "description": "After the first weekend of the classes you'll be dealing with the analysis of automotive industry data. Your tasks are going to include problem analysis, obtaining data and cleaning, processing and exploring it. You will also learn the definition of the term 'Big Data' that has gain a lot of popularity in the recent years.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "bd9c4759-2c85-4b26-a5c1-16b51f5f409a"
+              },
+              "chapterId": {
+                "id": "c41a51d2-858c-4247-a85e-1616af5fd2c8"
+              },
+              "presentations": 0,
+              "articles": 2,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 5,
+              "attachments": 1,
+              "lecturer": 0
+            },
+            "slug": "1-3"
+          },
+          {
+            "id": "2fa76728-25fc-42a6-b602-90b0c68d3822",
+            "number": 4,
+            "name": "Downloadable materials for session 2",
+            "description": "This is where you'll find the materials required during the second weekend of the classes with the lecturer.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "bd9c4759-2c85-4b26-a5c1-16b51f5f409a"
+              },
+              "chapterId": {
+                "id": "2fa76728-25fc-42a6-b602-90b0c68d3822"
+              },
+              "presentations": 0,
+              "articles": 0,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 0,
+              "attachments": 1,
+              "lecturer": 0
+            },
+            "slug": "1-4"
+          },
+          {
+            "id": "67bfe8bb-fe53-4337-865b-2bf002b5ee49",
+            "number": 5,
+            "name": "Day 3. Data Science process - step 6 - Communicating results; A/B Tests",
+            "description": "This part is devoted to the last stage of the Data Science process - communicating the results. You will find out what data storytelling is and also how to create data-driven stories to make them interesting for your audience. Additionally, you're going to learn the basic terminology connected with A/B tests that tech companies are eager to use when developing their products.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "bd9c4759-2c85-4b26-a5c1-16b51f5f409a"
+              },
+              "chapterId": {
+                "id": "67bfe8bb-fe53-4337-865b-2bf002b5ee49"
+              },
+              "presentations": 7,
+              "articles": 0,
+              "snippets": 0,
+              "quizzes": 4,
+              "exercises": 5,
+              "attachments": 1,
+              "lecturer": 0
+            },
+            "slug": "1-5"
+          },
+          {
+            "id": "bc8ba7d8-1f27-4bc2-ba00-2087678634c7",
+            "number": 6,
+            "name": "Day 4. Final Project",
+            "description": "You will finish the Introduction to Data Analysis course with the final project that is going to let you check the knowledge and skills gained during the prework and classes with the Lecturer. You'll perform a complete analysis of the sports data and share its results with other students. ",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "bd9c4759-2c85-4b26-a5c1-16b51f5f409a"
+              },
+              "chapterId": {
+                "id": "bc8ba7d8-1f27-4bc2-ba00-2087678634c7"
+              },
+              "presentations": 1,
+              "articles": 2,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 6,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "1-6"
+          }
+        ],
+        "lastSeen": false,
+        "access": true,
+        "lecturers": [
+          {
+            "name": "Aneta",
+            "surname": "Popelová"
+          }
+        ],
+        "hasExam": false
+      },
+      {
+        "id": "4eb02d4e-70ce-49c7-83a5-fcb5bd1b037c",
+        "number": 2,
+        "name": "SQL Data analysis - Prework",
+        "description": "Here you will get familiar with the organization of the course and learn the basic SQL syntax. You are also going to read the database model written as an UML diagram and learn the history of databases and their various implementations.",
+        "chapters": [
+          {
+            "id": "63116b4a-24d3-4394-a111-a1e4a413e552",
+            "number": 1,
+            "name": "Course preparation",
+            "description": "Here you'll get familiar with course organization and rules and find out about virtual classroom learning. You are also going to install the necessary software and connect to the database provided by CodersLab.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "4eb02d4e-70ce-49c7-83a5-fcb5bd1b037c"
+              },
+              "chapterId": {
+                "id": "63116b4a-24d3-4394-a111-a1e4a413e552"
+              },
+              "presentations": 0,
+              "articles": 7,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 0,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "2-1"
+          },
+          {
+            "id": "4ad57e17-d412-483b-94cf-835fad61e639",
+            "number": 2,
+            "name": "Introduction to databases",
+            "description": "In this section you will get familiar with the basics of databases. You will learn the main parts of SQL and the structure of the server you are going to use in your work.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "4eb02d4e-70ce-49c7-83a5-fcb5bd1b037c"
+              },
+              "chapterId": {
+                "id": "4ad57e17-d412-483b-94cf-835fad61e639"
+              },
+              "presentations": 0,
+              "articles": 7,
+              "snippets": 0,
+              "quizzes": 1,
+              "exercises": 0,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "2-2"
+          },
+          {
+            "id": "6cf80b8b-1b6f-4fb2-859d-8ed2ae44dc8d",
+            "number": 3,
+            "name": "Session 1 preparation",
+            "description": "Individual work materials to use before the session. This is where you learn advanced filtering techniques and ways of creating tables as well as their types. You will also deepen your knowledge of relational databases.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "4eb02d4e-70ce-49c7-83a5-fcb5bd1b037c"
+              },
+              "chapterId": {
+                "id": "6cf80b8b-1b6f-4fb2-859d-8ed2ae44dc8d"
+              },
+              "presentations": 0,
+              "articles": 8,
+              "snippets": 0,
+              "quizzes": 2,
+              "exercises": 0,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "2-3"
+          }
+        ],
+        "lastSeen": false,
+        "access": true,
+        "lecturers": [
+          {
+            "name": "Aneta",
+            "surname": "Popelová"
+          }
+        ],
+        "hasExam": false
+      },
+      {
+        "id": "68fd0b54-6637-4fcf-88a5-3cdefcd32567",
+        "number": 3,
+        "name": "SQL Data Analysis - Classes with the Lecturer",
+        "description": "The main part of the course. In this module you're going to learn the main elements of SQL useful in daily work of an analyst. You'll practice working with tools such as JOIN, procedures, filtering, and grouping.",
+        "chapters": [
+          {
+            "id": "af266dce-d1d2-4171-8093-0c5f8e8ee970",
+            "number": 1,
+            "name": "Day 1 - SQL basics",
+            "description": "",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "68fd0b54-6637-4fcf-88a5-3cdefcd32567"
+              },
+              "chapterId": {
+                "id": "af266dce-d1d2-4171-8093-0c5f8e8ee970"
+              },
+              "presentations": 4,
+              "articles": 0,
+              "snippets": 0,
+              "quizzes": 1,
+              "exercises": 15,
+              "attachments": 0,
+              "lecturer": 15
+            },
+            "slug": "3-1"
+          },
+          {
+            "id": "df65c146-4cdd-4199-b8b9-cb9487d4669b",
+            "number": 2,
+            "name": "Day 2 - Relationships and JOIN",
+            "description": "Relationships and JOIN are some of the key elements in analaysts' daily work - this is why this day is fully devoted to these two topics.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "68fd0b54-6637-4fcf-88a5-3cdefcd32567"
+              },
+              "chapterId": {
+                "id": "df65c146-4cdd-4199-b8b9-cb9487d4669b"
+              },
+              "presentations": 4,
+              "articles": 0,
+              "snippets": 0,
+              "quizzes": 1,
+              "exercises": 10,
+              "attachments": 0,
+              "lecturer": 11
+            },
+            "slug": "3-2"
+          },
+          {
+            "id": "aac2f30f-53ed-4a8b-98a4-698c91d1784f",
+            "number": 3,
+            "name": "Session 1 -  additional materials",
+            "description": "Here, you'll find additional materials to use after the session and How to use SQL to return results in Excel or Python. You will also learn the concept of the index and SELF JOIN.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "68fd0b54-6637-4fcf-88a5-3cdefcd32567"
+              },
+              "chapterId": {
+                "id": "aac2f30f-53ed-4a8b-98a4-698c91d1784f"
+              },
+              "presentations": 0,
+              "articles": 3,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 0,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "3-3"
+          },
+          {
+            "id": "7354cbc4-f9f3-495f-b8ce-bedfd7e39300",
+            "number": 4,
+            "name": "Session 2 preparation",
+            "description": "Individual work materials to use before the session. They will teach you the basics of views and how to create procedures in MySQL.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "68fd0b54-6637-4fcf-88a5-3cdefcd32567"
+              },
+              "chapterId": {
+                "id": "7354cbc4-f9f3-495f-b8ce-bedfd7e39300"
+              },
+              "presentations": 0,
+              "articles": 2,
+              "snippets": 0,
+              "quizzes": 2,
+              "exercises": 0,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "3-4"
+          },
+          {
+            "id": "1fcdb9d6-2e43-40ff-a2c9-efa9d7adf164",
+            "number": 5,
+            "name": "Day 3 - Data analysis",
+            "description": "This part has teaches the most important elements of data analysis. You're going to learn the concept of grouping and find out what window functions are. You will also learn to work with different date formats that you can meet in your work.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "68fd0b54-6637-4fcf-88a5-3cdefcd32567"
+              },
+              "chapterId": {
+                "id": "1fcdb9d6-2e43-40ff-a2c9-efa9d7adf164"
+              },
+              "presentations": 4,
+              "articles": 0,
+              "snippets": 0,
+              "quizzes": 1,
+              "exercises": 14,
+              "attachments": 0,
+              "lecturer": 14
+            },
+            "slug": "3-5"
+          },
+          {
+            "id": "85e9b7fb-c0f7-43ed-a713-47ce126e2704",
+            "number": 6,
+            "name": "Day 4 - Procedural Language for SQL",
+            "description": "PL/SQL uses all of your current knowledge and adds elements of programming to it. You will get to know conditional expressions, transactions, and learn how to iterate query results when all other methods fail. Eventually you'll use what you've learned to analyze a new database.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "68fd0b54-6637-4fcf-88a5-3cdefcd32567"
+              },
+              "chapterId": {
+                "id": "85e9b7fb-c0f7-43ed-a713-47ce126e2704"
+              },
+              "presentations": 4,
+              "articles": 0,
+              "snippets": 0,
+              "quizzes": 1,
+              "exercises": 14,
+              "attachments": 0,
+              "lecturer": 14
+            },
+            "slug": "3-6"
+          },
+          {
+            "id": "b5ad496e-c8ac-4887-a109-d7dd641889b7",
+            "number": 7,
+            "name": "Session 2 -  additional materials",
+            "description": "Here you'll find supplementary materials to use after the session. Consolidate your knowledge of the order of operations in SQL. You will also learn about the concept of normalization.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "68fd0b54-6637-4fcf-88a5-3cdefcd32567"
+              },
+              "chapterId": {
+                "id": "b5ad496e-c8ac-4887-a109-d7dd641889b7"
+              },
+              "presentations": 0,
+              "articles": 2,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 0,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "3-7"
+          },
+          {
+            "id": "df00d488-affb-40b0-9b4d-5bb464e9aed8",
+            "number": 8,
+            "name": "Final workshop - individual work",
+            "description": "Final workshop to complete on your own. You will be able to consolidate your knowledge using real-world tasks from the finance industry. To help you learn, each of the tasks includes a detailed solution.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "68fd0b54-6637-4fcf-88a5-3cdefcd32567"
+              },
+              "chapterId": {
+                "id": "df00d488-affb-40b0-9b4d-5bb464e9aed8"
+              },
+              "presentations": 0,
+              "articles": 12,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 11,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "3-8"
+          }
+        ],
+        "lastSeen": false,
+        "access": true,
+        "lecturers": [
+          {
+            "name": "Aneta",
+            "surname": "Popelová"
+          }
+        ],
+        "hasExam": false
+      },
+      {
+        "id": "5521dbf8-a03c-4e71-acb2-be64fcd44391",
+        "number": 4,
+        "name": "Python Data Analysis - Prework",
+        "description": "In this part of the course you're going to learn the basics of Python and SQL. You are going to install the tools used in the course such as Jupyter Notebook or the PostgreSQL. database.",
+        "chapters": [
+          {
+            "id": "7dccf12d-38c8-4c70-b6ef-ee89b06ba179",
+            "number": 1,
+            "name": "Block preparation",
+            "description": "Here you'll get familiar with course organization and rules and find out about virtual classroom learning. You're also going to install required software and create your own local installation of the database used during the course.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "5521dbf8-a03c-4e71-acb2-be64fcd44391"
+              },
+              "chapterId": {
+                "id": "7dccf12d-38c8-4c70-b6ef-ee89b06ba179"
+              },
+              "presentations": 0,
+              "articles": 6,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 0,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "4-1"
+          },
+          {
+            "id": "90244d58-5d4c-488b-8cef-69c7ad20914f",
+            "number": 2,
+            "name": "Basics of Python programming - individual work",
+            "description": "This part is a Python primer - the basis for further work. Here you'll find information on the most important data types and structures in Python as well as the methods of managing and controlling the flow of a program. To consolidate your knowledge, you're going to do many tasks on your own.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "5521dbf8-a03c-4e71-acb2-be64fcd44391"
+              },
+              "chapterId": {
+                "id": "90244d58-5d4c-488b-8cef-69c7ad20914f"
+              },
+              "presentations": 0,
+              "articles": 8,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 28,
+              "attachments": 1,
+              "lecturer": 0
+            },
+            "slug": "4-2"
+          },
+          {
+            "id": "758fdaad-dbe9-46a0-9c99-445f06b2f454",
+            "number": 3,
+            "name": "SQL basics - independent work",
+            "description": "This part is going to introduce you the the world of SQL - data analysts' basic tool where the data is stored. You'll learn to create your own local PostgreSQL databases and retrieve data from tables.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "5521dbf8-a03c-4e71-acb2-be64fcd44391"
+              },
+              "chapterId": {
+                "id": "758fdaad-dbe9-46a0-9c99-445f06b2f454"
+              },
+              "presentations": 0,
+              "articles": 4,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 6,
+              "attachments": 2,
+              "lecturer": 0
+            },
+            "slug": "4-3"
+          },
+          {
+            "id": "a400a0be-563a-4809-972a-d65165872412",
+            "number": 4,
+            "name": "Session 1 preparation",
+            "description": "Individual work materials to use before the session. Here, you're going to learn how to create functions, classes and objects. You'll also learn to install additional modules useful in your future work.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "5521dbf8-a03c-4e71-acb2-be64fcd44391"
+              },
+              "chapterId": {
+                "id": "a400a0be-563a-4809-972a-d65165872412"
+              },
+              "presentations": 0,
+              "articles": 4,
+              "snippets": 0,
+              "quizzes": 2,
+              "exercises": 2,
+              "attachments": 1,
+              "lecturer": 0
+            },
+            "slug": "4-4"
+          }
+        ],
+        "lastSeen": false,
+        "access": true,
+        "lecturers": [
+          {
+            "name": "Aneta",
+            "surname": "Popelová"
+          }
+        ],
+        "hasExam": false
+      },
+      {
+        "id": "65799130-43c9-4426-adb0-c6d01d396e41",
+        "number": 5,
+        "name": "Python Data Analysis - Classes with the Lecturer",
+        "description": "The main part of the course. In this module you're going to learn the main elements of Python useful in the daily work of an analyst. You will learn what REST API is, how to automate browser activity and use it to retrieve data to process and visualize it and eventually use to create the final analysis report.",
+        "chapters": [
+          {
+            "id": "e06bf9a5-3a05-48ea-98eb-5b854bac333a",
+            "number": 1,
+            "name": "Day 1 -  Functions, lists, dictionaries, and strings",
+            "description": "This day teaches and consolidates the knowledge of functions. You will learn why it is good to use lists and dictionaries. Additionally, you'll find out how to handle text strings which are commonplace in data analysis.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "65799130-43c9-4426-adb0-c6d01d396e41"
+              },
+              "chapterId": {
+                "id": "e06bf9a5-3a05-48ea-98eb-5b854bac333a"
+              },
+              "presentations": 6,
+              "articles": 1,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 14,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "5-1"
+          },
+          {
+            "id": "505b4006-78cd-49d0-b93e-784ff59c471c",
+            "number": 2,
+            "name": "Day 2 - OOP, files, exceptions, and regular expressions",
+            "description": "This part of the course teaches how to work with files. You will learn that in Python everything is an object and how you can benefit from it. Additionally, you're going to learn to handle exceptions that occur during work.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "65799130-43c9-4426-adb0-c6d01d396e41"
+              },
+              "chapterId": {
+                "id": "505b4006-78cd-49d0-b93e-784ff59c471c"
+              },
+              "presentations": 6,
+              "articles": 1,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 8,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "5-2"
+          },
+          {
+            "id": "d1f6a011-708a-45c7-b88c-4d99449bccfd",
+            "number": 3,
+            "name": "Session 1 summary",
+            "description": "These materials will help you to summarize your knowledge from the first session and test it solving the homework exercises.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "65799130-43c9-4426-adb0-c6d01d396e41"
+              },
+              "chapterId": {
+                "id": "d1f6a011-708a-45c7-b88c-4d99449bccfd"
+              },
+              "presentations": 0,
+              "articles": 8,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 3,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "5-3"
+          },
+          {
+            "id": "4dff688c-a257-4e58-a764-c1107e7f1dae",
+            "number": 4,
+            "name": "Session 2 preparation",
+            "description": "During the second session we will focus on SQL and working with this language. That's why it's a good idea to get familiar with its basics before classes. Later we will focus on the API and how to use it to connect to other information systems.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "65799130-43c9-4426-adb0-c6d01d396e41"
+              },
+              "chapterId": {
+                "id": "4dff688c-a257-4e58-a764-c1107e7f1dae"
+              },
+              "presentations": 0,
+              "articles": 9,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 4,
+              "attachments": 1,
+              "lecturer": 0
+            },
+            "slug": "5-4"
+          },
+          {
+            "id": "ee33852a-4fc2-4dcc-a0d2-b3ae4d87f3f9",
+            "number": 5,
+            "name": "Day 3 - PostgreSQL",
+            "description": "This day is devoted to completing your Prework knowledge of SQL with grouping and JOINing. You'll also learn how to execute SQL queries from Python - this will make your work even more effective!",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "65799130-43c9-4426-adb0-c6d01d396e41"
+              },
+              "chapterId": {
+                "id": "ee33852a-4fc2-4dcc-a0d2-b3ae4d87f3f9"
+              },
+              "presentations": 5,
+              "articles": 1,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 13,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "5-5"
+          },
+          {
+            "id": "b67eacfe-711b-4c9b-8736-705e54b89523",
+            "number": 6,
+            "name": "Day 4- API",
+            "description": "In this day you will find out what JSON is and why it is so important and common throughout the IT industry. You'll also use REST API to retrieve its data.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "65799130-43c9-4426-adb0-c6d01d396e41"
+              },
+              "chapterId": {
+                "id": "b67eacfe-711b-4c9b-8736-705e54b89523"
+              },
+              "presentations": 4,
+              "articles": 1,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 11,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "5-6"
+          },
+          {
+            "id": "ae1bf311-5c87-4456-8f84-e6b574886c62",
+            "number": 7,
+            "name": "Session 2 summary",
+            "description": "In these materials you'll find a list of API that you can use in your own work. You also do your first workshop with Python.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "65799130-43c9-4426-adb0-c6d01d396e41"
+              },
+              "chapterId": {
+                "id": "ae1bf311-5c87-4456-8f84-e6b574886c62"
+              },
+              "presentations": 0,
+              "articles": 1,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 1,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "5-7"
+          },
+          {
+            "id": "b170a538-202d-4be6-ad0e-a8df9f714a46",
+            "number": 8,
+            "name": "Session 3 preparation",
+            "description": "Preparation materials for session 3 will show you how to use the most popular libraries to analyze data - Pandas.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "65799130-43c9-4426-adb0-c6d01d396e41"
+              },
+              "chapterId": {
+                "id": "b170a538-202d-4be6-ad0e-a8df9f714a46"
+              },
+              "presentations": 0,
+              "articles": 6,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 1,
+              "attachments": 1,
+              "lecturer": 0
+            },
+            "slug": "5-8"
+          },
+          {
+            "id": "68eed3e9-05ee-455e-9e59-bbda3e6d1f83",
+            "number": 9,
+            "name": "Day 5 - Pandas",
+            "description": "Pandas is the Python equivalent of a spreadsheet. During this day you'll learn how to effectively filter, process and group data directly in Python.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "65799130-43c9-4426-adb0-c6d01d396e41"
+              },
+              "chapterId": {
+                "id": "68eed3e9-05ee-455e-9e59-bbda3e6d1f83"
+              },
+              "presentations": 4,
+              "articles": 0,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 9,
+              "attachments": 0,
+              "lecturer": 9
+            },
+            "slug": "5-9"
+          },
+          {
+            "id": "e21c9510-678e-483f-9099-7f574ec2e40a",
+            "number": 10,
+            "name": "Day 6 - Pandas cont.",
+            "description": "The continuation of the previous day with additional information such as pivot table, date operations and the workshop that will summarize and consolidate your new knowledge.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "65799130-43c9-4426-adb0-c6d01d396e41"
+              },
+              "chapterId": {
+                "id": "e21c9510-678e-483f-9099-7f574ec2e40a"
+              },
+              "presentations": 4,
+              "articles": 0,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 7,
+              "attachments": 0,
+              "lecturer": 7
+            },
+            "slug": "5-10"
+          },
+          {
+            "id": "8b59ff31-09ad-4815-8977-be4cf96bb506",
+            "number": 11,
+            "name": "Session 3 summary",
+            "description": "The summary lets you learn the array calculation library that Pandas built upon - NumPy.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "65799130-43c9-4426-adb0-c6d01d396e41"
+              },
+              "chapterId": {
+                "id": "8b59ff31-09ad-4815-8977-be4cf96bb506"
+              },
+              "presentations": 0,
+              "articles": 2,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 0,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "5-11"
+          },
+          {
+            "id": "c2d61c3c-08e9-45e9-b870-869a09f3e5b9",
+            "number": 12,
+            "name": "Session 4 preparation",
+            "description": "Before session four it is a good idea to find what web scraping is, how URL addresses work, and what information they hold. This knowledge will be required during classes.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "65799130-43c9-4426-adb0-c6d01d396e41"
+              },
+              "chapterId": {
+                "id": "c2d61c3c-08e9-45e9-b870-869a09f3e5b9"
+              },
+              "presentations": 0,
+              "articles": 5,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 3,
+              "attachments": 1,
+              "lecturer": 0
+            },
+            "slug": "5-12"
+          },
+          {
+            "id": "79b541c0-d15d-4a74-8186-027562ab8550",
+            "number": 13,
+            "name": "Day 7 - Plots",
+            "description": "This is where you'll learn the main data visualization library - Matplotlib - it will let you present your analyses graphically.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "65799130-43c9-4426-adb0-c6d01d396e41"
+              },
+              "chapterId": {
+                "id": "79b541c0-d15d-4a74-8186-027562ab8550"
+              },
+              "presentations": 4,
+              "articles": 0,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 8,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "5-13"
+          },
+          {
+            "id": "77c7538f-5d54-49ee-856d-84763ffa5f47",
+            "number": 14,
+            "name": "Day 8 - Web scraping",
+            "description": "This whole day is devoted to retrieving data from websites that do not offer an API. You are going to learn to write robots that will go to the website for you and get the data from it.",
+            "lastSeenMaterial": {
+              "id": {
+                "id": "c9071861-6a9f-4dc5-9bad-7d9e94b3f61a"
+              },
+              "instanceId": "328",
+              "date": "2026-06-23T15:26:50+00:00",
+              "moduleId": {
+                "id": "65799130-43c9-4426-adb0-c6d01d396e41"
+              },
+              "chapterId": {
+                "id": "77c7538f-5d54-49ee-856d-84763ffa5f47"
+              }
+            },
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "65799130-43c9-4426-adb0-c6d01d396e41"
+              },
+              "chapterId": {
+                "id": "77c7538f-5d54-49ee-856d-84763ffa5f47"
+              },
+              "presentations": 5,
+              "articles": 1,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 11,
+              "attachments": 0,
+              "lecturer": 7
+            },
+            "slug": "5-14"
+          },
+          {
+            "id": "c8071300-32e2-408e-9c90-17ecfc78186d",
+            "number": 15,
+            "name": "Session 4 summary",
+            "description": "In the summary materials you can read about other libraries that allow data visualization with Python. You will also find the solution of the workshop.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "65799130-43c9-4426-adb0-c6d01d396e41"
+              },
+              "chapterId": {
+                "id": "c8071300-32e2-408e-9c90-17ecfc78186d"
+              },
+              "presentations": 0,
+              "articles": 2,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 0,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "5-15"
+          },
+          {
+            "id": "ea05a2a4-89d2-4284-8ea0-5cc447317bb2",
+            "number": 16,
+            "name": "Session 5 preparation",
+            "description": "These materials introduce the final project. You'll find out what data you're going to work with and what your aim is.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "65799130-43c9-4426-adb0-c6d01d396e41"
+              },
+              "chapterId": {
+                "id": "ea05a2a4-89d2-4284-8ea0-5cc447317bb2"
+              },
+              "presentations": 0,
+              "articles": 1,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 1,
+              "attachments": 1,
+              "lecturer": 0
+            },
+            "slug": "5-16"
+          },
+          {
+            "id": "bee0fa31-b830-4f09-a481-40914c7e5137",
+            "number": 17,
+            "name": "Day 9 - Generating PDF",
+            "description": "This day teaches you to create and generate and compile reports and invoices in the PDF format using ReportLab.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "65799130-43c9-4426-adb0-c6d01d396e41"
+              },
+              "chapterId": {
+                "id": "bee0fa31-b830-4f09-a481-40914c7e5137"
+              },
+              "presentations": 4,
+              "articles": 1,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 7,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "5-17"
+          },
+          {
+            "id": "57f1801c-2118-4965-88a1-8bf5a04bd717",
+            "number": 18,
+            "name": "Day 10 - Workshop",
+            "description": "This is where you summarize all the knowledge gained during the course - from retrieving the data from a website, through processing it, to calculate the betting ods for online bookmaker site. What's more, you're also going to learn best practices of creating and managing a Data Science process.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "65799130-43c9-4426-adb0-c6d01d396e41"
+              },
+              "chapterId": {
+                "id": "57f1801c-2118-4965-88a1-8bf5a04bd717"
+              },
+              "presentations": 0,
+              "articles": 1,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 0,
+              "attachments": 2,
+              "lecturer": 0
+            },
+            "slug": "5-18"
+          },
+          {
+            "id": "f3993364-6402-4f2c-abe1-805b9d9fcec4",
+            "number": 19,
+            "name": "Session 5 summary",
+            "description": "The final part of the course - you're going to find out how to use Virtualenv to configure your own virtual environment for Python.",
+            "lastSeenMaterial": null,
+            "access": true,
+            "statistics": {
+              "moduleId": {
+                "id": "65799130-43c9-4426-adb0-c6d01d396e41"
+              },
+              "chapterId": {
+                "id": "f3993364-6402-4f2c-abe1-805b9d9fcec4"
+              },
+              "presentations": 0,
+              "articles": 1,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 0,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "5-19"
+          }
+        ],
+        "lastSeen": true,
+        "access": true,
+        "lecturers": [
+          {
+            "name": "Aneta",
+            "surname": "Popelová"
+          }
+        ],
+        "hasExam": false
+      },
+      {
+        "id": "32e6cc53-2221-4130-a9f5-4952468b750c",
+        "number": 6,
+        "name": "Data visualization - Prework",
+        "description": "In this section you are going to learn some tools that will be useful when we create visualizations during classes: Google Colaboratory notebooks, Datawrapper services, and jsfiddle.net. You're also going to learn the basic terminology and principles of data visualization. You'll learn how to create effective visualizations and what visualizations should be avoided.",
+        "chapters": [
+          {
+            "id": "2a2ff7c4-b965-42b8-8bc4-458ff838513c",
+            "number": 1,
+            "name": "Course introduction",
+            "description": "Here you will get to know the plan of prework: introduction to classes. You're going to learn the aim of prework and find out how it can help you get ready for the remaining sections of the course.",
+            "lastSeenMaterial": null,
+            "access": false,
+            "statistics": {
+              "moduleId": {
+                "id": "32e6cc53-2221-4130-a9f5-4952468b750c"
+              },
+              "chapterId": {
+                "id": "2a2ff7c4-b965-42b8-8bc4-458ff838513c"
+              },
+              "presentations": 0,
+              "articles": 3,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 1,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "6-1"
+          },
+          {
+            "id": "1059df40-7274-4b87-afc6-3b0a76355869",
+            "number": 2,
+            "name": "Basics of data visualization",
+            "description": "This section explains what visualization is and gives you examples of good and bad visualizations. You are going to find out what visual encoding is and how to pick colors for a visualization. You will create your first visualizations with Colab notebooks and the Datawrapper service.",
+            "lastSeenMaterial": null,
+            "access": false,
+            "statistics": {
+              "moduleId": {
+                "id": "32e6cc53-2221-4130-a9f5-4952468b750c"
+              },
+              "chapterId": {
+                "id": "1059df40-7274-4b87-afc6-3b0a76355869"
+              },
+              "presentations": 0,
+              "articles": 8,
+              "snippets": 0,
+              "quizzes": 3,
+              "exercises": 3,
+              "attachments": 2,
+              "lecturer": 0
+            },
+            "slug": "6-2"
+          },
+          {
+            "id": "f9cdeb5d-3758-4700-aba7-3294589b301e",
+            "number": 3,
+            "name": "Pandas - review",
+            "description": "Here you are going to revise the basic information on working with the Pandas library. You will read how to prepare data for visualization with this library.",
+            "lastSeenMaterial": null,
+            "access": false,
+            "statistics": {
+              "moduleId": {
+                "id": "32e6cc53-2221-4130-a9f5-4952468b750c"
+              },
+              "chapterId": {
+                "id": "f9cdeb5d-3758-4700-aba7-3294589b301e"
+              },
+              "presentations": 0,
+              "articles": 2,
+              "snippets": 0,
+              "quizzes": 1,
+              "exercises": 2,
+              "attachments": 1,
+              "lecturer": 0
+            },
+            "slug": "6-3"
+          }
+        ],
+        "lastSeen": false,
+        "access": false,
+        "lecturers": [
+          {
+            "name": "Aneta",
+            "surname": "Popelová"
+          }
+        ],
+        "hasExam": false
+      },
+      {
+        "id": "89d5877f-327c-46ac-87e6-ab0f92a9b4cf",
+        "number": 7,
+        "name": "Data Visualization - classes with the lecturer",
+        "description": "This is where you will find the materials from the main section of the course. You are going to learn the basics of the theory of data visualization and geovisualization, find out how to create visualizations using seaborn, plotly and networkx, and how to visualize spatial data. You'll create dashboards using the dash library and a popular visualization tool - Tableau.",
+        "chapters": [
+          {
+            "id": "53291f90-a74a-4fb8-8e72-64c045eaaa55",
+            "number": 1,
+            "name": "Session 1 preparation",
+            "description": "In this section you will learn how the data you'll work with on the first day of the first session was prepared. You are also going to read what spatial data is and how to work with it using the GeoPandas library.",
+            "lastSeenMaterial": null,
+            "access": false,
+            "statistics": {
+              "moduleId": {
+                "id": "89d5877f-327c-46ac-87e6-ab0f92a9b4cf"
+              },
+              "chapterId": {
+                "id": "53291f90-a74a-4fb8-8e72-64c045eaaa55"
+              },
+              "presentations": 0,
+              "articles": 3,
+              "snippets": 0,
+              "quizzes": 1,
+              "exercises": 7,
+              "attachments": 1,
+              "lecturer": 0
+            },
+            "slug": "7-1"
+          },
+          {
+            "id": "7c7cb7cd-5e1e-4aaf-9029-69f0843411c9",
+            "number": 2,
+            "name": "Day 1",
+            "description": "On this day you will learn the theory of visualizing data and working with color. You are going to find out how the seaborn and plotly libraries are built, and create your first visualizations using them.",
+            "lastSeenMaterial": null,
+            "access": false,
+            "statistics": {
+              "moduleId": {
+                "id": "89d5877f-327c-46ac-87e6-ab0f92a9b4cf"
+              },
+              "chapterId": {
+                "id": "7c7cb7cd-5e1e-4aaf-9029-69f0843411c9"
+              },
+              "presentations": 6,
+              "articles": 0,
+              "snippets": 0,
+              "quizzes": 2,
+              "exercises": 26,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "7-2"
+          },
+          {
+            "id": "c3931532-4155-4799-8c8b-a19043281f90",
+            "number": 3,
+            "name": "Day 2",
+            "description": "This is where you will find the basic information on geovisualization, populars format of storing spatial data, and available source of such data. You'll learn the basics of working with the GeoPandas library and the Mapbox service.",
+            "lastSeenMaterial": null,
+            "access": false,
+            "statistics": {
+              "moduleId": {
+                "id": "89d5877f-327c-46ac-87e6-ab0f92a9b4cf"
+              },
+              "chapterId": {
+                "id": "c3931532-4155-4799-8c8b-a19043281f90"
+              },
+              "presentations": 8,
+              "articles": 0,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 22,
+              "attachments": 1,
+              "lecturer": 0
+            },
+            "slug": "7-3"
+          },
+          {
+            "id": "50df6f7f-5e93-4e2b-b5c3-fd7c44df3800",
+            "number": 4,
+            "name": "Session 1 summary",
+            "description": "This section lets you consolidate and extend what you've learned so far. You will find out what plotly themes are, and how to create visualizations using bokeh. You're going to create more advanced visualizations using Mapbox, and the Folium library.",
+            "lastSeenMaterial": null,
+            "access": false,
+            "statistics": {
+              "moduleId": {
+                "id": "89d5877f-327c-46ac-87e6-ab0f92a9b4cf"
+              },
+              "chapterId": {
+                "id": "50df6f7f-5e93-4e2b-b5c3-fd7c44df3800"
+              },
+              "presentations": 0,
+              "articles": 5,
+              "snippets": 0,
+              "quizzes": 2,
+              "exercises": 6,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "7-4"
+          },
+          {
+            "id": "4db15fc8-5941-4875-86ea-38ed6ce894a8",
+            "number": 5,
+            "name": "Session 2 preparation",
+            "description": "Here you will get familiar with graph theory and find out what a dashboard is. You'll learn the basics of data storytelling, and find out how to present data-based information effectively.",
+            "lastSeenMaterial": null,
+            "access": false,
+            "statistics": {
+              "moduleId": {
+                "id": "89d5877f-327c-46ac-87e6-ab0f92a9b4cf"
+              },
+              "chapterId": {
+                "id": "4db15fc8-5941-4875-86ea-38ed6ce894a8"
+              },
+              "presentations": 0,
+              "articles": 5,
+              "snippets": 0,
+              "quizzes": 5,
+              "exercises": 1,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "7-5"
+          },
+          {
+            "id": "bb8ceb36-3ec3-4693-8000-5b93f5d8f059",
+            "number": 6,
+            "name": "Day 3",
+            "description": "On this day you're going to find out how to create graphs with the networkx library, and learn the basics of working with dash. You'll find out how a dashboard is made, what elements it consists of, and how to create interactive visualizations on a dashboard made with the dash library.",
+            "lastSeenMaterial": null,
+            "access": false,
+            "statistics": {
+              "moduleId": {
+                "id": "89d5877f-327c-46ac-87e6-ab0f92a9b4cf"
+              },
+              "chapterId": {
+                "id": "bb8ceb36-3ec3-4693-8000-5b93f5d8f059"
+              },
+              "presentations": 6,
+              "articles": 1,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 17,
+              "attachments": 5,
+              "lecturer": 0
+            },
+            "slug": "7-6"
+          },
+          {
+            "id": "4d0d9808-704e-4e90-ad7d-7d3b946cccb5",
+            "number": 7,
+            "name": "Day 4",
+            "description": "Here you are going to find out how to achieve the specific layout of dashboard elements with dash, and what cross-filtering, callback context variable, and tooltip are. You'll find out how to create multipage applications, and how to use animations in a dashboard.",
+            "lastSeenMaterial": null,
+            "access": false,
+            "statistics": {
+              "moduleId": {
+                "id": "89d5877f-327c-46ac-87e6-ab0f92a9b4cf"
+              },
+              "chapterId": {
+                "id": "4d0d9808-704e-4e90-ad7d-7d3b946cccb5"
+              },
+              "presentations": 6,
+              "articles": 0,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 11,
+              "attachments": 6,
+              "lecturer": 0
+            },
+            "slug": "7-7"
+          },
+          {
+            "id": "3d963b00-542d-4ef2-818f-2579a2748eef",
+            "number": 8,
+            "name": "Session 2 summary",
+            "description": "Here you are going to revise the basic information discussed during session 2. You'll also find out how to create graph visualizations with the Dash Cytoscape component library.",
+            "lastSeenMaterial": null,
+            "access": false,
+            "statistics": {
+              "moduleId": {
+                "id": "89d5877f-327c-46ac-87e6-ab0f92a9b4cf"
+              },
+              "chapterId": {
+                "id": "3d963b00-542d-4ef2-818f-2579a2748eef"
+              },
+              "presentations": 0,
+              "articles": 2,
+              "snippets": 0,
+              "quizzes": 1,
+              "exercises": 0,
+              "attachments": 0,
+              "lecturer": 0
+            },
+            "slug": "7-8"
+          },
+          {
+            "id": "c71972b0-f33a-40be-8638-3df148855eb9",
+            "number": 9,
+            "name": "Session 3 preparation",
+            "description": "In this part you will get to know the basics of Tableau. You are going to download and install Tableau Desktop and prepare your working environment that you'll need to work on session 3 materials.",
+            "lastSeenMaterial": null,
+            "access": false,
+            "statistics": {
+              "moduleId": {
+                "id": "89d5877f-327c-46ac-87e6-ab0f92a9b4cf"
+              },
+              "chapterId": {
+                "id": "c71972b0-f33a-40be-8638-3df148855eb9"
+              },
+              "presentations": 0,
+              "articles": 1,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 1,
+              "attachments": 1,
+              "lecturer": 0
+            },
+            "slug": "7-9"
+          },
+          {
+            "id": "38aebef6-1c3d-4c85-8055-c8c7e69f0dc1",
+            "number": 10,
+            "name": "Day 5",
+            "description": "On this day you are going to get the basic skills of working with data in Tableau. You will find out how to prepare the data and create your first visualizations, you'll use them to build a dashboard and a Tableau story. You'll also see more advanced examples of dashboards.",
+            "lastSeenMaterial": null,
+            "access": false,
+            "statistics": {
+              "moduleId": {
+                "id": "89d5877f-327c-46ac-87e6-ab0f92a9b4cf"
+              },
+              "chapterId": {
+                "id": "38aebef6-1c3d-4c85-8055-c8c7e69f0dc1"
+              },
+              "presentations": 5,
+              "articles": 0,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 10,
+              "attachments": 3,
+              "lecturer": 0
+            },
+            "slug": "7-10"
+          },
+          {
+            "id": "28219e91-c7aa-48f5-ad70-fe4e937985b6",
+            "number": 11,
+            "name": "Day 6",
+            "description": "On this day you are going to do your final project. You can take up one of the two project variants: create visualizations with the Python libraries you have learned, or use Tableau.",
+            "lastSeenMaterial": null,
+            "access": false,
+            "statistics": {
+              "moduleId": {
+                "id": "89d5877f-327c-46ac-87e6-ab0f92a9b4cf"
+              },
+              "chapterId": {
+                "id": "28219e91-c7aa-48f5-ad70-fe4e937985b6"
+              },
+              "presentations": 0,
+              "articles": 23,
+              "snippets": 0,
+              "quizzes": 0,
+              "exercises": 22,
+              "attachments": 2,
+              "lecturer": 0
+            },
+            "slug": "7-11"
+          },
+          {
+            "id": "a28ebd81-7b8d-4584-86e2-50a342f6f0bb",
+            "number": 12,
+            "name": "Session 3 summary",
+            "description": "Here you will find a summary of the most important information on working with Tableau. You'll also learn interesting solutions that will make it easier to achieve the visualization you want in Tableau.",
+            "lastSeenMaterial": null,
+            "access": false,
+            "statistics": {
+              "moduleId": {
+                "id": "89d5877f-327c-46ac-87e6-ab0f92a9b4cf"
+              },
+              "chapterId": {
+                "id": "a28ebd81-7b8d-4584-86e2-50a342f6f0bb"
+              },
+              "presentations": 0,
+              "articles": 2,
+              "snippets": 0,
+              "quizzes": 1,
+              "exercises": 4,
+              "attachments": 1,
+              "lecturer": 0
+            },
+            "slug": "7-12"
+          }
+        ],
+        "lastSeen": false,
+        "access": false,
+        "lecturers": [
+          {
+            "name": "Aneta",
+            "surname": "Popelová"
+          }
+        ],
+        "hasExam": false
+      }
+    ]
+  }
+}
