@@ -105,6 +105,22 @@ st.markdown("""
         color: #FF4B4B;
         border-color: #FF4B4B;
     }
+    
+    /* Button styling - softer color & contrast readability */
+    .stButton > button[kind="primary"], div.stButton > button {
+        background-color: #2E3A4E !important;
+        color: #F0F6FC !important;
+        border: 1px solid #4A5D78 !important;
+        border-radius: 8px !important;
+        font-weight: 600 !important;
+        transition: all 0.2s ease-in-out !important;
+    }
+    .stButton > button[kind="primary"]:hover, div.stButton > button:hover {
+        background-color: #3B4C66 !important;
+        border-color: #38BDF8 !important;
+        color: #FFFFFF !important;
+        box-shadow: 0 4px 12px rgba(56, 189, 248, 0.2) !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
