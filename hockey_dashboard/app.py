@@ -313,9 +313,23 @@ def load_data():
 
 df = load_data()
 
-# Coderslab Branding
-st.sidebar.markdown("""
+# Helper to load Coders Lab logo icon
+def get_cl_logo_b64():
+    logo_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logo_cl.png")
+    if os.path.exists(logo_path):
+        import base64
+        with open(logo_path, "rb") as f:
+            return base64.b64encode(f.read()).decode("utf-8")
+    return ""
+
+cl_b64 = get_cl_logo_b64()
+
+# Coderslab Branding with Clickable CL Logo Link
+st.sidebar.markdown(f"""
 <div style="font-family: 'Inter', 'Segoe UI', sans-serif; text-align: center; margin-bottom: 5px; padding: 5px 0;">
+    <a href="https://coderslab.cz/cz/kurzy/data-analyst" target="_blank" title="Coders Lab - Data Analyst Course" style="text-decoration: none; display: inline-block; margin-bottom: 8px;">
+        <img src="data:image/png;base64,{cl_b64}" style="height: 52px; border-radius: 8px; box-shadow: 0 4px 15px rgba(253, 184, 19, 0.4);" alt="Coders Lab Data Analyst Course">
+    </a>
     <div style="font-size: 2.2rem; font-weight: 700; line-height: 1.1; margin-bottom: 8px;">
         <span class="logo-c">Coders</span><span class="logo-l" style="margin-left: 2px;">Lab</span>
     </div>
@@ -328,9 +342,12 @@ st.sidebar.markdown("""
     </div>
 </div>
 <div style="font-size: 0.8rem; color: #8892B0; text-align: center; margin-bottom: 10px; font-family: sans-serif; margin-top: 10px;">
-    Data Analyst Course<br><b class="logo-c">Vít Otáhal</b>
+    <a href="https://coderslab.cz/cz/kurzy/data-analyst" target="_blank" style="color: inherit; text-decoration: none;">
+        Data Analyst Course<br><b class="logo-c">Vít Otáhal</b>
+    </a>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 # Auto-detect client browser language and restore from URL query parameters / session state
