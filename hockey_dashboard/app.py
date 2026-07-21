@@ -199,7 +199,9 @@ t = {
         "help_heatmap": "Globální korelace počítá vzájemné vztahy napříč všemi týmy ligy. Výběrem týmu zobrazíte specifickou korelační matici daného klubu.",
         "actual_teams_only": "Pouze současné týmy (Actual teams only)",
         "help_actual_teams": "Filtruje pouze aktivní týmy NHL a skryje historické/přejmenované franšízy (např. Atlanta Thrashers, Hartford Whalers, Mighty Ducks, Quebec Nordiques).",
-        "help_bankroll": "Doporučená výše sázky spočítaná podle Half-Kellyho kritéria přizpůsobená zadanému bankrollu."
+        "help_bankroll": "Doporučená výše sázky spočítaná podle Half-Kellyho kritéria přizpůsobená zadanému bankrollu.",
+        "ev_value_bet": "✅ **Value Bet!** Kurz sázkové kanceláře ({market_odd:.2f}) je vyšší než fér kurz modelu ({fair_odd:.2f}). Očekávaná ziskovost je +{ev_pct:.2f}%.",
+        "ev_bad_bet": "⚠️ **Nevýhodná sázka!** Kurz sázkové kanceláře ({market_odd:.2f}) neobsahuje kladnou očekávanou hodnotu oproti modelu ({fair_odd:.2f})."
     },
     "EN": {
         "title": "Hockey Analytics Dashboard",
@@ -286,7 +288,9 @@ t = {
         "help_heatmap": "Global correlation evaluates relationships across all league teams. Select a specific team to inspect that franchise's historical correlation matrix.",
         "actual_teams_only": "Actual teams only",
         "help_actual_teams": "Filters only current active NHL franchises and excludes historical/defunct/relocated names (e.g. Atlanta Thrashers, Hartford Whalers, Mighty Ducks, Quebec Nordiques).",
-        "help_bankroll": "Recommended stake calculated using Half-Kelly criterion adjusted to the given bankroll."
+        "help_bankroll": "Recommended stake calculated using Half-Kelly criterion adjusted to the given bankroll.",
+        "ev_value_bet": "✅ **Value Bet!** Market odds ({market_odd:.2f}) are higher than model fair odds ({fair_odd:.2f}). Expected ROI is +{ev_pct:.2f}%.",
+        "ev_bad_bet": "⚠️ **Negative EV Bet!** Market odds ({market_odd:.2f}) do not offer positive expected value compared to model fair odds ({fair_odd:.2f})."
     }
 }
 
@@ -1103,9 +1107,9 @@ else:
                     st.metric(labels["kelly_stake_label"], f"{kelly_res['recommended_stake']:,.0f} {currency_unit} ({kelly_res['kelly_pct']:.1f} %)")
                 
                 if kelly_res['ev_pct'] > 0:
-                    st.success(f"✅ **Value Bet!** Kurz sázkové kanceláře ({market_odd_input:.2f}) je vyšší než fér kurz modelu ({1.0/prob_a:.2f}). Očekávaná ziskovost je +{kelly_res['ev_pct']:.2f}%.")
+                    st.success(labels["ev_value_bet"].format(market_odd=market_odd_input, fair_odd=1.0/prob_a, ev_pct=kelly_res['ev_pct']))
                 else:
-                    st.warning(f"⚠️ **Nevýhodná sázka!** Kurz sázkové kanceláře ({market_odd_input:.2f}) neobsahuje kladnou očekávanou hodnotu oproti modelu ({1.0/prob_a:.2f}).")
+                    st.warning(labels["ev_bad_bet"].format(market_odd=market_odd_input, fair_odd=1.0/prob_a))
 
     elif menu == labels["nav_schedule"]:
         st.markdown(f"<div class='main-title'>{labels['schedule_title']}</div>", unsafe_allow_html=True)
