@@ -874,12 +874,12 @@ else:
         
         fig3 = go.Figure(layout=dict(template=plotly_template))
         fig3.add_trace(go.Scatter(
-            x=team_df_1['season'], y=team_df_1['victories'],
+            x=team_df_1['season'].astype(str), y=team_df_1['victories'],
             name=f"{selected_team_1} ({labels['wins']})",
             line=dict(color='#FF4B4B', width=3)
         ))
         fig3.add_trace(go.Scatter(
-            x=team_df_1['season'], y=team_df_1['defeats'],
+            x=team_df_1['season'].astype(str), y=team_df_1['defeats'],
             name=f"{selected_team_1} ({labels['losses']})",
             line=dict(color='#8892B0', width=2, dash='dot')
         ))
@@ -887,12 +887,12 @@ else:
         if selected_team_2 != labels["none_option"]:
             team_df_2 = df[df['team'] == selected_team_2].sort_values('season')
             fig3.add_trace(go.Scatter(
-                x=team_df_2['season'], y=team_df_2['victories'],
+                x=team_df_2['season'].astype(str), y=team_df_2['victories'],
                 name=f"{selected_team_2} ({labels['wins']})",
                 line=dict(color='#FDB813', width=3)
             ))
             fig3.add_trace(go.Scatter(
-                x=team_df_2['season'], y=team_df_2['defeats'],
+                x=team_df_2['season'].astype(str), y=team_df_2['defeats'],
                 name=f"{selected_team_2} ({labels['losses']})",
                 line=dict(color='#4A5568', width=2, dash='dot')
             ))
@@ -900,7 +900,8 @@ else:
         fig3.update_layout(
             paper_bgcolor=plotly_bg,
             plot_bgcolor=plotly_bg,
-            font=dict(color=plotly_font_color)
+            font=dict(color=plotly_font_color),
+            xaxis=dict(type='category', title=labels['season'])
         )
         st.plotly_chart(fig3, width="stretch")
 
