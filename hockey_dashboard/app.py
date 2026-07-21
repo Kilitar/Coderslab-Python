@@ -143,6 +143,7 @@ t = {
         "decimal_odd_home": "Desetinný kurz pro {team} (Domácí)",
         "decimal_odd_away": "Desetinný kurz pro {team} (Hosté)",
         "raw_odd": "Čistý kurz: {odd:.2f}",
+        "odd_label": "Kurz: {odd:.2f}",
         "h2h_title": "Historické vzájemné statistiky",
         "metric_col": "Metrika",
         "total_wins_label": "Celkem výher",
@@ -234,6 +235,7 @@ t = {
         "decimal_odd_home": "Decimal Odd for {team} (Home)",
         "decimal_odd_away": "Decimal Odd for {team} (Away)",
         "raw_odd": "Raw: {odd:.2f}",
+        "odd_label": "Odds: {odd:.2f}",
         "h2h_title": "Historical Stats Head-to-Head",
         "metric_col": "Metric",
         "total_wins_label": "Total Wins",
@@ -1076,13 +1078,13 @@ else:
                     st.metric(
                         label=f"Under {ou_threshold}",
                         value=f"{ou_res['prob_under']*100:.1f}%",
-                        delta=f"Kurz: {ou_res['odd_under']:.2f}"
+                        delta=labels["odd_label"].format(odd=ou_res['odd_under'])
                     )
                 with col_ou2:
                     st.metric(
                         label=f"Over {ou_threshold}",
                         value=f"{ou_res['prob_over']*100:.1f}%",
-                        delta=f"Kurz: {ou_res['odd_over']:.2f}"
+                        delta=labels["odd_label"].format(odd=ou_res['odd_over'])
                     )
 
             with tab_ev:
